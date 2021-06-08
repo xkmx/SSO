@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MySQLConnectionTest" project="Epikar-sso" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.epikar.sso.MySQLConnectionTest" time="0.567">
+    <testcase name="testConnection" classname="com.epikar.sso.MySQLConnectionTest" time="0.567"/>
+  </testsuite>
+</testrun>

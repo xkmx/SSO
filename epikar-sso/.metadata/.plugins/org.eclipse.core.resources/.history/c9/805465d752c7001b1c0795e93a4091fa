@@ -1,0 +1,17 @@
+package com.epikar.dao;
+
+@Repository
+public class MemberDAOImpl implements MemberDAO {
+ 
+    @Inject
+    private SqlSession sqlSession;
+    
+    private static final String Namespace = "com.example.mapper.memberMapper";
+    
+    @Override
+    public List<MemberVO> selectMember() throws Exception {
+ 
+        return sqlSession.selectList(Namespace+".selectMember");
+    }
+ 
+}

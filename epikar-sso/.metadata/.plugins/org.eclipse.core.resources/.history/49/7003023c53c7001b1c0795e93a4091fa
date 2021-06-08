@@ -1,0 +1,5 @@
+package com.epikar.service;
+
+public class MemberService {
+
+}

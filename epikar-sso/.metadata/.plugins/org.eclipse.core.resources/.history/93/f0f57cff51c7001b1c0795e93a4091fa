@@ -1,0 +1,5 @@
+package com.epikar.dto;
+
+public class MemberVO {
+
+}
